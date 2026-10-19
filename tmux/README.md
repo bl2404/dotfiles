@@ -4,9 +4,16 @@
 # Copy text with no mouse
 1. Leader + v
 2. Vim navigate to beginning
-3. Space to begin selection
-4. `y` - to copy and exit copy mdoe
+3. `v` (or Space) to begin selection
+4. Move with h/j/k/l to extend the selection
+5. `y` - to copy and exit copy mode
 6. `Ctrl+Shift+v` to paste
+
+# Copy text with the mouse
+- Drag to select, double-click a word, or triple-click a line
+- tmux fallback: the highlight stays after release; press `y` to copy and exit
+- If WezTerm handles the mouse natively: release copies immediately
+- `Ctrl+Shift+v` to paste
 
 
 # Jumping between panes
@@ -20,7 +27,7 @@
 - Shift + up/down
 
 # Scrolling through commands
-- Ctrl + up/down
+- Ctrl + j/k
 
 
 # useful commands
